@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var sum = 0
+for x in 1...100{
+    sum += x
+}
+print(sum)
